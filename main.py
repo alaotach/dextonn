@@ -91,7 +91,7 @@ async def on_member_remove(member):
     await keys_collection.delete_one({"user_id": str(member.id)})
 
 def run_bot():
-    bot.run(os.environ["MTMxMzk5NTQ0MjYyMjU2NjQ1MA.GW9HxL.VEEgemw-SxHEeVXPbD_ey-yOBFV626tjbzXFUw"])
+    bot.run('MTMxMzk5NTQ0MjYyMjU2NjQ1MA.G5Sl_r.Zu9QIrrMGGwWS3rc34Mbjb9hwtR_Gz4AQMBuvQ')
 
 if __name__ == "__main__":
     t = threading.Thread(target=run_bot)

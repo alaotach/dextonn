@@ -1,5 +1,6 @@
 import sys
 import os
+os.system('pip install -r requirements.txt')
 import importlib.util
 from PyQt5.QtWidgets import QApplication
 from auth_window import AuthWindow

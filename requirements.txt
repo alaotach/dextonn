@@ -6,3 +6,4 @@ pybit
 atexit
 decimal
 pybit.unified_trading
+motor

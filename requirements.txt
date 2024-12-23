@@ -1,5 +1,9 @@
 PyQt5
 requests
 psutil
+subprocess
 pybit
+atexit
+decimal
+pybit.unified_trading
 motor
